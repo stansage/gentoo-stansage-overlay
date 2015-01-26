@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+ <repositories version="1.0">
+   <repo priority="50" quality="experimental" status="unofficial">
+     <name>gentoo-stansage-overlay</name>
+     <description lang="en">The stansage's overlay for gentoo linux.</description>
+     <homepage>https://github.com/stansage/gentoo-stansage-overlay</homepage>
+     <owner type="person">
+       <email>me@stansage.com</email>
+       <name>stansage</name>
+     </owner>
+     <source type="git">git://github.com/stansage/gentoo-stansage-overlay.git</source>
+     <feed>https://github.com/stansage/gentoo-stansage-overlay/commits/master.atom</feed>
+   </repo>
+ </repositories>
