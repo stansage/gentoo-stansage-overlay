@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-USE_RUBY="ruby19"
+USE_RUBY="ruby"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 RUBY_FAKEGEM_RECIPE_DOC="none"
@@ -20,8 +20,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="doc"
 
-ruby_add_rdepend ">=dev-ruby/dotenv-0.7
-	>=dev-ruby/thor-0.13.6"
+ruby_add_rdepend ">=dev-ruby/dotenv-1.0.2
+	>=dev-ruby/thor-0.19.1"
 ruby_add_bdepend "test? (
 		dev-ruby/fakefs
 		dev-ruby/timecop
