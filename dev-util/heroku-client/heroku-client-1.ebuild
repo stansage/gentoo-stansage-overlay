@@ -25,8 +25,8 @@ src_unpack() {
 src_install() {
 	dodir "/opt/heroku"
 	cp -r "${S}"/* "${D}"/opt/heroku
-	dodir "/usr/local/bin"
-	dosym /opt/heroku/bin/heroku /usr/local/bin/heroku
+	dodir "/usr/bin"
+	dosym /opt/heroku/bin/heroku /usr/bin/heroku
 }
 
 pkg_postinst() {
