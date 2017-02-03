@@ -18,8 +18,7 @@ DEPEND="dev-python/dbus-python
 	dev-python/PyQt4"
 
 pkg_postinst() {
-	#python__get_version
-	#python_mod_optimize /usr/$(get_libdir)/python${PYVER}/site-packages/${PN}
+	python_mod_optimize /usr/$(get_libdir)/python3.4/site-packages/${PN}
 }
 
 pkg_postrm() {
