@@ -19,7 +19,7 @@ DEPEND="dev-python/dbus-python
 
 pkg_postinst() {
 	python_version
-	python_mod_optimize /usr/$(get_libdir)/python${PYVER}/site-packages/${PN}
+	#python_mod_optimize /usr/$(get_libdir)/python${PYVER}/site-packages/${PN}
 }
 
 pkg_postrm() {
