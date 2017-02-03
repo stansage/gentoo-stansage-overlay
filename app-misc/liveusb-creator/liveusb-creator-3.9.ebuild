@@ -22,5 +22,5 @@ pkg_postinst() {
 }
 
 pkg_postrm() {
-	python_mod_cleanup
+	python_mod_cleanup /usr/$(get_libdir)/python3.4/site-packages/${PN}
 }
